@@ -44,7 +44,7 @@ export DEMO_PROJECT="<YOUR-PROJECT-ID>"
 export DEMO_INFERENCE_IP_NAME="ml-static-ip-50"
 
 ### This is the project that hosts reference images and other admin elements
-ADMIN_PROJECT_ID="<YOUR-PROJECT-ID>"
+ADMIN_PROJECT_ID="jf-derby-264509"
 
 ### Name of the source bucket with images of colored balls (this is one source for all other projects)
 export GCS_SOURCE_IMAGES="cloud-derby-pictures"
