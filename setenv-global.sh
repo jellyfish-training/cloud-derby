@@ -40,7 +40,7 @@ export HORIZONTAL_RESOLUTION_PIXELS="1024"
 export VERTICAL_RESOLUTION_PIXELS="576"
 
 ### Demo project with the inference VM running at all times for use by anyone
-export DEMO_PROJECT="<YOUR-PROJECT-ID>"
+export DEMO_PROJECT="jf-derby-264509"
 export DEMO_INFERENCE_IP_NAME="ml-static-ip-50"
 
 ### This is the project that hosts reference images and other admin elements
