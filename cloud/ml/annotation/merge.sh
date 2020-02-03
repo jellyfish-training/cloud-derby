@@ -33,7 +33,7 @@ source ../../../setenv-global.sh
 # This is the name of the bucket with user provided annotated images
 # It must have one or more zip files with the correct folder structure
 # GCS_BUCKET=<...put unique GCS bucket name here - must match the name in upload.bat ...>
-GCS_BUCKET="annotated-images-${PROJECT}-version-${VERSION}"
+GCS_BUCKET="annotated-images-jf-derby-264509-version-50"
 
 # As part of processing we will make sure that no file is larger than this resolution on any dimension
 MAX_PIXELS="$HORIZONTAL_RESOLUTION_PIXELS"
