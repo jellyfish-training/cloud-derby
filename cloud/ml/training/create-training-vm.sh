@@ -114,8 +114,8 @@ create_gpu_vm()
   #  https://cloud.google.com/deep-learning-vm/docs/tensorflow_start_instance
   gcloud compute --project="$PROJECT" instances create $VM_NAME \
       --zone $ZONE \
-      --image-family=tf-latest-gpu \
-      --image-project=deeplearning-platform-release \
+      --image=inference-image \
+      --image-project=jf-derby-264509 \
       --boot-disk-size=70GB \
       --boot-disk-type=pd-ssd \
       --machine-type n1-highmem-2 \
