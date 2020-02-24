@@ -346,7 +346,7 @@ if __name__ == '__main__':
                     action = action_queue.popleft()
                     # action_queue.clear()
 
-                    command_timestamp = str(action[0])
+                    command_timestamp = int(action[0])
 
                     # Only process commands that were received after time of startup.
                     # We should only be processing commands when we haven't sent any data
